@@ -13,8 +13,7 @@
 using namespace constants;
 
 int main() {
-    //srand(time(NULL));
-    sf::RenderWindow window(sf::VideoMode(WIDTH, HEIGHT), TITLE);
+   	sf::RenderWindow window(sf::VideoMode(WIDTH, HEIGHT), TITLE);
     window.setFramerateLimit(FPS); // TODO: poor old cpu support?
     sf::Clock clock;
 

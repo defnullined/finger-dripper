@@ -13,15 +13,15 @@
 using namespace constants;
 
 int main() {
-   	sf::RenderWindow window(sf::VideoMode(WIDTH, HEIGHT), TITLE);
-   	window.setFramerateLimit(FPS); // TODO: poor old cpu support?
-    sf::Clock clock;
+   sf::RenderWindow window(sf::VideoMode(WIDTH, HEIGHT), TITLE);
+   window.setFramerateLimit(FPS); // TODO: poor old cpu support?
+   sf::Clock clock;
 
-	// load font
-	sf::Font font;
-	if (!font.loadFromFile("../resources/fonts/OpenSans-Regular.ttf")) {
-  		return 1;
-	}
+    // load font
+    sf::Font font;
+    if (!font.loadFromFile("../resources/fonts/OpenSans-Regular.ttf")) {
+        return 1;
+    }
 
     DictHandler dictionary("../resources/dictionary/test.txt");
     

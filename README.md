@@ -1,2 +1,2 @@
 # finger-dripper
-Typing speed test
+Typing speed test.
